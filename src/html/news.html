@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello</title>
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  </head>
+  <body>
+      <% include 'html/partials/_header.html' %>
+      <section class="news-hero">
+        <div class="news-hero-title">
+          ニュース
+        </div>
+      </section>
+      <!-- article -->
+      <section class="container-fluid container-mod">
+        <div class="section-title-wrapper">
+          <h1 class="section-title">日ツノヲ</h1>
+        </div>
+        <div class="row">
+          <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 col-sx-9">
+            <!-- post with photo -->
+            <% include 'html/partials/_article-photo.html' %>
+            <!-- post without photo -->
+            <% include 'html/partials/_article.html' %>
+            <!-- post with photo -->
+            <% include 'html/partials/_article-photo.html' %>
+            <!-- post with photo -->
+            <% include 'html/partials/_article-photo.html' %>
+            <!-- post without photo -->
+            <% include 'html/partials/_article.html' %>
+            <!-- red Button -->
+            <div class="row">
+              <div class="col-xl-12">
+                <a href="#" class="btn-play btn-big btn-center"><img src="/images/play-icon.png" alt="play icon">夏の湯治バカンスをご提案</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-sx-3">
+            <div class="table-wrapper">
+              <div class="row">
+                  <div class="col-xl-12">
+                    <div class="section-title-wrapper">
+                      <h4 class="section-title">アーカイブ</h4>
+                    </div>
+                     <table class="custom-table">
+                       <tr>
+                         <td>2016年</td>
+
+                       </tr>
+                       <tr>
+                         <td>2015年</td>
+
+                       </tr>
+                       <tr>
+                         <td>2014年</td>
+
+                       </tr>
+                       <tr>
+                         <td>2013年</td>
+
+                       </tr>
+                       <tr>
+                         <td>2012年</td>
+
+                       </tr>
+                     </table>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </section>
+      <% include 'html/partials/_footer.html' %>
+  </body>

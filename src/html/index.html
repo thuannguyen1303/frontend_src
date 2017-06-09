@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello</title>
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <% include 'html/partials/_header.html' %>
+    <section class="hero-wrapper">
+
+    </section>
+    <!-- top banner -->
+    <section class="container-fluid container-mod">
+      <div class="banner-sector">
+        <div class="row">
+          <div class="col-xl-4 col-lg-4 col-md-4 mb-2 mb-xl-0">
+            <div class="banner-wrapper">
+              <h4>メディア</h4>
+              <div class="img-overlay">
+              </div>
+              <img src="/images/banner1.jpg" class=" img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-xl-4 col-lg-4 col-md-4 mb-2 mb-xl-0">
+            <div class="banner-wrapper">
+              <h4>メディア</h4>
+              <div class="img-overlay">
+              </div>
+              <img src="/images/banner2.jpg" class=" img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-xl-4 col-lg-4 col-md-4 mb-2 mb-xl-0">
+            <div class="banner-wrapper">
+              <h4>メディア</h4>
+              <div class="img-overlay">
+
+              </div>
+              <img src="/images/banner3.jpg" class=" img-fluid" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- article -->
+    <section class="container-fluid container-mod">
+      <div class="section-title-wrapper">
+        <h1 class="section-title">日ツノヲ</h1>
+      </div>
+      <!-- post with photo -->
+      <% include 'html/partials/_article-photo.html' %>
+      <!-- post without photo -->
+      <% include 'html/partials/_article.html' %>
+      <!-- post with photo -->
+      <% include 'html/partials/_article-photo.html' %>
+      <!-- post with photo -->
+      <% include 'html/partials/_article-photo.html' %>
+      <!-- post without photo -->
+      <% include 'html/partials/_article.html' %>
+      <!-- red Button -->
+      <div class="row">
+        <div class="col-xl-12">
+          <a href="#" class="btn-play btn-big btn-center"><img src="/images/play-icon.png" alt="play icon">夏の湯治バカンスをご提案</a>
+        </div>
+      </div>
+    </section>
+    <!-- table -->
+    <section class="container-fluid container-mod">
+      <div class="section-title-wrapper">
+        <h1 class="section-title">メディア掲載情報</h1>
+      </div>
+      <div class="table-wrapper">
+        <div class="row">
+            <div class="col-xl-12">
+               <table class="custom-table">
+                 <tr>
+                   <td>2016.06.27</td>
+                   <td>大江戸温泉物語「ホテル新光」</td>
+                   <td>夏の石和温泉の楽しみ方を紹介</td>
+                 </tr>
+                 <tr>
+                   <td>2016.06.27</td>
+                   <td>大江戸温泉物語「ホテル新光」</td>
+                   <td>夏の石和温泉の楽しみ方を紹介</td>
+                 </tr>
+                 <tr>
+                   <td>2016.06.27</td>
+                   <td>大江戸温泉物語「ホテル新光」</td>
+                   <td>夏の石和温泉の楽しみ方を紹介</td>
+                 </tr>
+                 <tr>
+                   <td>2016.06.27</td>
+                   <td>大江戸温泉物語「ホテル新光」</td>
+                   <td>夏の石和温泉の楽しみ方を紹介</td>
+                 </tr>
+               </table>
+            </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-12">
+          <a href="#" class="btn-play btn-small btn-right"><img src="/images/play-icon.png" alt="play icon">一覧はこちら</a>
+        </div>
+      </div>
+    </section>
+    <!-- panel -->
+    <section class="container-fluid container-mod hidden-md-down">
+      <div class="section-title-wrapper">
+        <h1 class="section-title">大江戸温泉物語の運営施設</h1>
+      </div>
+      <div class="img-panel-wrapper">
+        <div class="img-panel-main">
+          <img src="/images/img-panel-1.png" class="panel-main-img" alt="panel-img">
+        </div>
+        <div class="img-panel-sub-wrapper">
+          <div class="img-panel-sub">
+            <p class="panel-sub-hover">その他の運営施設一覧</p>
+            <img src="/images/img-panel-sm1.png" alt="">
+          </div>
+          <div class="img-panel-sub">
+            <p class="panel-sub-hover">その他の運営施設一覧</p>
+            <img src="/images/img-panel-sm2.png" alt="">
+          </div>
+          <div class="img-panel-sub">
+            <p class="panel-sub-hover">その他の運営施設一覧</p>
+            <img src="/images/img-panel-sm3.png" alt="">
+          </div>
+          <div class="img-panel-sub">
+            <p class="panel-sub-hover">その他の運営施設一覧</p>
+            <img src="/images/img-panel-sm4.png" alt="">
+          </div>
+          <div class="img-panel-sub">
+            <p class="panel-sub-hover">その他の運営施設一覧</p>
+            <img src="/images/img-panel-sm5.png" alt="">
+          </div>
+        </div>
+        <div class="img-panel-button">
+          <h4>その他の運営施設一覧</h4>
+        </div>
+      </div>
+    </section>
+    <!-- footer img -->
+    <section class="container-fluid container-mod">
+      <div class="footer-banner-sector">
+        <div class="row">
+          <div class="col-xl-4 col-lg-4 col-md-12">
+            <div class="footer-banner-wrapper">
+              <img src="/images/banner_recruit.png" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-xl-4 col-lg-4 col-md-12">
+            <div class="footer-banner-wrapper">
+              <img src="/images/banner_group-site.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-12">
+            <div class="footer-banner-wrapper">
+              <img src="/images/banner_film-commission.png" class="img-fluid" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <% include 'html/partials/_footer.html' %>
+  </body>
+</html>
