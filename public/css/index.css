@@ -175,6 +175,7 @@ body {
   font-size: 25px;
 }
 .article .article-photo {
+  width: 100%;
   border-radius: 10px;
 }
 
