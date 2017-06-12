@@ -420,6 +420,10 @@ body {
     padding-right: 5px;
     width: 100px;
   }
+
+  .footer-margin {
+    margin-bottom: 10px;
+  }
 }
 @media (max-width: 800px) {
   .custom-table tr {
